@@ -10,9 +10,10 @@ import { SucessoCadastroComponent } from './sucesso-cadastro/sucesso-cadastro.co
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { MensagemComponent } from './components/mensagem/mensagem.component';
 import { MaiorIdadeDirective } from './directives/MaiorIdadeDirective';
+import { MudarCorDirective } from './directives/mudarCorDirective';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, CadastroComponent, SucessoCadastroComponent, MensagemComponent, MaiorIdadeDirective],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, CadastroComponent, SucessoCadastroComponent, MensagemComponent, MaiorIdadeDirective, MudarCorDirective],
   imports: [
     BrowserModule,
     AppRoutingModule,
