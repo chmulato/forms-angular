@@ -11,13 +11,16 @@ import { CadastroComponent } from './cadastro/cadastro.component';
 import { MensagemComponent } from './components/mensagem/mensagem.component';
 import { MaiorIdadeDirective } from './directives/MaiorIdadeDirective';
 import { MudarCorDirective } from './directives/mudarCorDirective';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent, HeaderComponent, FooterComponent, CadastroComponent, SucessoCadastroComponent, MensagemComponent, MaiorIdadeDirective, MudarCorDirective],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule ],
+    FormsModule,
+    HttpClientModule
+   ],
   providers: [],
   bootstrap: [AppComponent],
 })
